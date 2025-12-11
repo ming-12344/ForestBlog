@@ -10,12 +10,13 @@
 - 🛠 后台管理  
 - 🔍 基于 SSM 架构  
 - 🎨 前端基于 前端（View 层 / 表现层）：
-1.JSP
-用作页面展示，结合 JSTL/EL 输出数据。
-2.HTML + CSS + JavaScript
-负责页面结构、样式、交互。
-3.JSP + SpringMVC
-通过 Controller 返回 JSP，实现前后端页面渲染。
+前端（Frontend）
+
+JSP：页面渲染
+
+HTML + CSS + JavaScript：前端结构、样式与基础交互
+
+JSTL / EL：JSP 数据展示辅助
 
 -🎨后端（业务层 & 持久层）:
 1. Spring — 业务逻辑层（Service）
@@ -34,7 +35,7 @@
 使用连接池（如 Druid / c3p0）。
 5. Maven — 构建与依赖管理
 管理 Spring、SpringMVC、MyBatis 所有依赖。
-提供项目打包、构建、执行方式。re
+提供项目打包、构建、执行方式。
 🖥️ 开发环境（Development Environment）
 JDK 22
 IntelliJ IDEA
