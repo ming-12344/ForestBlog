@@ -32,6 +32,16 @@
 #### **1. Spring — 业务逻辑层（Service）**
 
 * 实现文章、登录、评论等核心业务
+* Spring ：
+管理对象（IOC）：由 Spring 统一创建和管理 Java 对象（Bean），降低耦合
+
+依赖注入（DI）：自动把对象依赖注入进来，不用手动 new
+
+整合其他框架：整合 MyBatis、SpringMVC、事务、数据源等
+
+事务管理：统一控制数据库事务（提交 / 回滚）
+
+核心支撑层：为整个 SSM 项目提供基础运行和管理能力
 * 使用 `@Service`、`@Autowired` 进行 IoC / DI
 
 #### **2. SpringMVC — 控制层（Controller）**
