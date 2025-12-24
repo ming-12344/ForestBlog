@@ -4,7 +4,9 @@
 
 **ForestBlog** 是一个使用 **SSM（Spring + SpringMVC + MyBatis）** 搭建的个人博客平台，支持文章管理、用户系统、评论、后台管理等核心功能。
 
----
+---系统前台首页访问地址为：http://localhost:8080
+---系统后台管理首页访问地址为：http://localhost:8080/admin
+前台效果图：
 
 ## 🚀 功能特性（Features）
 
@@ -96,4 +98,3 @@ src
  │       └─ static          # JS / CSS / Images
  └─ pom.xml
 
-你希望我加吗？
