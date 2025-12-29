@@ -89,12 +89,18 @@ src
  │   │    ├─ controller     # SpringMVC 控制层
  │   │    ├─ service        # 业务逻辑层
  │   │    ├─ mapper         # MyBatis 映射接口
- │   │    └─ pojo           # 实体类
+ │   │    ├─ enity          # 实体类
+ │   │    ├─ enums          # 枚举类，存放常量枚举
+ │   │    ├─ dto            # 数据传输对象，用于前后端数据传递。
+ │   │    ├─ interceptor    # 拦截器，用于权限、日志等拦截处理。
+ │   │    └─ util           # 工具类，如字符串处理、日期处理等。
  │   ├─ resources
- │   │    ├─ mapper         # MyBatis XML
- │   │    ├─ spring         # Spring/SpringMVC 配置
+ │   │    ├─  mapper         # MyBatis XML
+ │   │    ├─  spring         # Spring/SpringMVC 配置
+ │   │    ├─  mybatis：      # MyBatis配置文件（如 mybatis-config.xml）。
+ │   │    ├─  db.properties  #数据库连接配置（JDBC 连接信息）。
  │   ├─ webapp
  │       ├─ WEB-INF/jsp     # JSP 视图层
- │       └─ static          # JS / CSS / Images
+ │       └─ resource        # 存放静态资源（如 CSS、JS、图片）       
  └─ pom.xml
 
